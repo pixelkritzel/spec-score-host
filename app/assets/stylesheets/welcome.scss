@@ -1,0 +1,16 @@
+
+.intro {
+  //@extend .container;
+  margin: -20px 0 0 0;
+  background-color: $color-a;
+}
+
+.second {
+  @include no-border;
+  background-color: $color-b;
+}
+
+.third {
+  @include no-border;
+  background-color: $color-c;
+}
