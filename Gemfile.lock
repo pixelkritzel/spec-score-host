@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/erpe/spec-score-api.git
-  revision: 1c27220bddb5869c0a436c68a66b3803e9251978
+  revision: bbbf1e307f04e6ce2c230bdc9e121355d7449720
   specs:
-    spec_score_api (0.0.1)
+    spec_score_api (0.0.1.pre.0)
       jbuilder
       rails (~> 4.1)
 
