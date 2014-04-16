@@ -38,6 +38,7 @@ gem 'spec_score_api', git: 'git://github.com/erpe/spec-score-api.git'
 
 # Use Capistrano for deployment
 gem 'capistrano-rails', group: :development
+gem 'rails_12factor', group: :production
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
