@@ -38,8 +38,10 @@ gem 'spec_score_registry', git: 'git://github.com/erpe/spec-score-registry.git'
 # gem 'unicorn'
 
 # Use Capistrano for deployment
-gem 'capistrano-rails', group: :development
+#gem 'capistrano-rails', group: :development
 gem 'rails_12factor', group: :production
+gem 'foreman'
+gem 'unicorn'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
