@@ -1,16 +1,36 @@
 
-.intro {
-  //@extend .container;
-  margin: -20px 0 0 0;
-  background-color: $color-a;
+body {
+  color: whitesmoke;
+}
+.default {
+  @extend .clearfix;
+  color: whitesmoke;
+  min-height: 600px;
+  padding: 20px 40px 40px 40px;
 }
 
+.intro {
+  @extend .default;
+  @include single-box-shadow(darken($color-c, 2), 1px, 1px, 6px);
+  @include border-radius(4px,4px);
+  margin: -20px 0 0 0;
+  background-color: $color-a;
+  text-align: center;
+  h1 {
+    padding-top: 40px;
+    font-size: 4em;
+    font-family: 'Belleza', sans-serif;
+  }
+}
+.more {
+  margin-top: 40px;
+}
 .second {
-  @include no-border;
+  @extend .default;
   background-color: $color-b;
 }
 
 .third {
-  @include no-border;
   background-color: $color-c;
+
 }

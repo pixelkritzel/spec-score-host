@@ -13,12 +13,14 @@
  *= require_self
  */
 
-
+@import url(http://fonts.googleapis.com/css?family=Belleza&subset=latin,latin-ext);
 @import 'framework/colors';
-@import 'framework/borders';
+
 @import 'bootstrap';
 @import "compass/utilities";
+//@import "compass/layout/stretching";
 @import "compass/css3";
 
+@import 'framework/borders';
 @import 'welcome';
 
