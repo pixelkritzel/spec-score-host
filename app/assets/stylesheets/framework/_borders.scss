@@ -1,5 +1,9 @@
 $footer-height: 60px;
 
+.padding {
+  @extend .col-md-12;
+  padding: 40px 40px 40px 40px;
+}
 .no-margin {
   margin: 0;
 }
