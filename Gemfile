@@ -30,13 +30,18 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'rspec-rails'
 
+#gem 'spec_score_api', path: '../spec_score_api'
+#gem 'spec_score_registry', path: '../spec_score_registry'
+
 gem 'spec_score_api', git: 'git://github.com/erpe/spec-score-api.git'
 gem 'spec_score_registry', git: 'git://github.com/erpe/spec-score-registry.git'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use Capistrano for deployment
 #gem 'capistrano-rails', group: :development
+
 gem 'rails_12factor', group: :production
 gem 'foreman'
 gem 'unicorn'

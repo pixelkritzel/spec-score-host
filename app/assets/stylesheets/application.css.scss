@@ -17,10 +17,11 @@
 @import 'framework/colors';
 
 @import 'bootstrap';
-@import "compass/utilities";
-//@import "compass/layout/stretching";
-@import "compass/css3";
+@import 'compass/utilities';
+@import 'compass/layout';
+@import 'compass/css3';
 
 @import 'framework/borders';
+@import 'partials/footer';
 @import 'welcome';
 
