@@ -1,16 +1,16 @@
 GIT
   remote: git://github.com/erpe/spec-score-api.git
-  revision: f52263c0afd43e4bd2fe3bfa7802bcacbaf69fe7
+  revision: 0662713d95b8f8dcc5cecdb180b40aed231601bc
   specs:
-    spec_score_api (0.0.1.pre.1)
+    spec_score_api (0.0.1.pre.2)
       jbuilder
       rails (~> 4.1)
 
 GIT
   remote: git://github.com/erpe/spec-score-registry.git
-  revision: 1bbf6e4e51d36397b1cf3260837154dce83afc35
+  revision: 211ec1664f09346b1100f0d343500a0b2cc200c4
   specs:
-    spec_score_registry (0.0.1.pre.1)
+    spec_score_registry (0.0.1.pre.2)
       devise
       rails (~> 4.1.0)
 
